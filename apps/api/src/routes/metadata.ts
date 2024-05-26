@@ -25,7 +25,7 @@ app.post('/', async (c) => {
     const tx = createData(JSON.stringify(signed), signer, {
       tags: [
         { name: 'Content-Type', value: 'application/json' },
-        { name: 'App-Name', value: 'Tape' }
+        { name: 'App-Name', value: 'Z' }
       ]
     })
     await tx.sign(signer)

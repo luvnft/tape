@@ -268,12 +268,10 @@ const New: FC<Props> = ({ refetch }) => {
           size="sm"
           show={showNewUploadModal}
           setShow={setShowNewUploadModal}
-          title="Upload to Tape"
+          title="Upload to Z"
         >
           <div>
-            <p>
-              You can upload a video to Tape and then post a link to it here.
-            </p>
+            <p>You can upload a video to Z and then post a link to it here.</p>
             <div className="mt-4 flex justify-end">
               <Link href="/create">
                 <Button>Continue to Upload</Button>

@@ -118,7 +118,7 @@ const TopOverlay: FC<OverlayProps> = ({ playerRef, video }) => {
             alt={TAPE_APP_NAME}
             width={40}
           />
-          <b>Watch on Tape</b>
+          <b>Watch on Z</b>
         </Link>
       </div>
     </div>
